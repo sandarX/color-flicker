@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Flicker</title>
-    <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="./css/output.css">
 </head>
 
 <body class="bg-white">
@@ -15,7 +15,7 @@
                 <h1 class="text-3xl font-serif capitalize tracking-wider">Color Flicker</h1>
                 <ul class="flex items-center gap-x-10 font-sans text-lg">
                     <li>
-                        <a href="../index.html">Name</a>
+                        <a href="index.html"">Name</a>
                     </li>
                     <li>
                         <a href="hex.html">Hex</a>
@@ -33,11 +33,11 @@
     <main class="h-[calc(100vh-8rem)] sm:h-[calc(100vh-5rem)] flex justify-center items-center">
         <div class="px-5 w-full sm:w-10/12 lg:w-2/3 mx-auto ">
             <div class="flex flex-col gap-y-5">
-                <div class="text-xl sm:text-3xl font-serif capitalize tracking-wider text-center rounded-3xl bg-slate-200 py-1 px-4 self-center">Hexadecimal</div>
+                <h1 class="text-xl sm:text-3xl font-serif capitalize tracking-wider text-center rounded-3xl bg-slate-200 py-1 px-4 self-center">RGB (Red, Green, Blue)</h1>
                 <div
                     class="bg-slate-100 border border-white rounded text-center p-5 flex flex-col sm:flex-row items-center justify-center gap-x-10">
                     <span class="text-xl sm:text-3xl font-serif text-slate-500">Background Color:</span>
-                    <span id="color" class="text-xl sm:text-3xl font-mono text-slate-800">#FFFFFF</span>
+                    <span id="color" class="text-xl sm:text-3xl font-mono text-slate-800">rgb(255, 255, 255)</span>
                 </div>
                 <button class="bg-slate-500 hover:bg-slate-700 text-white font-bold py-2 px-4 rounded self-center"
                     id="changeBtn">Click Me</button>
@@ -45,7 +45,7 @@
         </div>
     </main>
 
-    <script src="../js/hex.js"></script>
+    <script src="./js/rgb.js"></script>
 </body>
 
 </html>
